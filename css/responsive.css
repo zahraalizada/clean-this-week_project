@@ -1,0 +1,230 @@
+@media (min-width: 576px) {
+  header .header__country img {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  header .header__country img {
+    width: 20px;
+    height: 20px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  header nav a {
+    font-size: 12px !important;
+    margin-right: 15px !important;
+  }
+  header .header__country {
+    background-color: #F8F8F8;
+  }
+  header .header__country span {
+    font-size: 9px;
+  }
+  #corners .corners-card__item {
+    width: 100% !important;
+    min-height: 270px !important;
+  }
+  #services .services-card__item {
+    min-height: 140px !important;
+  }
+  #services .services-list li {
+    position: relative;
+  }
+  #services .services-list li i {
+    position: absolute;
+    left: 0;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .section-header {
+    margin-bottom: 30px;
+  }
+  .section-header h2 {
+    font-size: 20px;
+    line-height: 25px;
+  }
+  .section-header p {
+    font-size: 14px;
+  }
+  header .header__country span {
+    max-width: 250px !important;
+  }
+  .mb-120 {
+    margin-bottom: 80px;
+  }
+  #area-main .area-main-bg {
+    background: #fff;
+  }
+  #area-main .area-main__description h1 {
+    font-size: 24px;
+    line-height: 32px;
+    margin-bottom: 20px;
+  }
+  #area-main .area-main__description ul a {
+    font-size: 14px;
+  }
+  #area-main .area-main__img {
+    width: 300px;
+    height: 210px;
+  }
+  #offer.mb-120 {
+    margin-bottom: 120px !important;
+  }
+  #offer .offer__items {
+    padding: 30px 20px;
+    border-radius: 20px;
+  }
+  #offer .offer__items .offer__item {
+    margin-bottom: 15px;
+  }
+  #offer .offer__items .offer__item h3 {
+    font-size: 16px;
+    line-height: 19px;
+  }
+  #offer .offer__items .offer__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #workers .workers__img-box {
+    max-width: 320px;
+    max-height: 285px;
+    bottom: 80px;
+    left: 15px;
+  }
+  #workers .workers__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #workers .workers__text {
+    font-size: 14px;
+    line-height: 19px;
+  }
+  #workers .workers__desc {
+    margin-top: -50px;
+    padding-bottom: 35px;
+  }
+  #download .download__img-box {
+    width: 185px;
+    height: 250px;
+    margin: auto;
+    margin-bottom: 20px;
+  }
+  #download .download__title-hidden {
+    font-size: 20px;
+    line-height: 26px;
+    margin-bottom: 20px;
+  }
+  #about .about__img-box {
+    width: 312px;
+    height: 280px;
+    margin: auto;
+  }
+  #about .about__quote-img {
+    bottom: 15px;
+    width: 57px;
+    height: 52px;
+  }
+  #about .about__line::after {
+    width: 46px;
+    height: 4px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin: 30px auto 20px;
+  }
+  #about .about__line .about__text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+  #about .about__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  #about .about__desc {
+    font-size: 14px;
+    line-height: 18px;
+  }
+  #clients {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+  #clients .clients__title {
+    font-size: 20px;
+    line-height: 25px;
+    margin-bottom: 10px;
+  }
+  #clients .clients__desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+  #clients .clients__iframe {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+    margin: auto;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-bottom: 90px;
+  }
+  #clients .clients__iframe .img-fluid {
+    -o-object-position: top left;
+       object-position: top left;
+  }
+  #services .services-card__item {
+    min-height: 230px;
+    padding: 0px;
+    border: none;
+    border-radius: 20px;
+    margin-bottom: 20px;
+  }
+  #services .services-card__item .services-card__title {
+    font-size: 16px;
+    line-height: 22px;
+    margin-top: 18px;
+    margin-bottom: 10px;
+  }
+  #services .services-list li {
+    font-size: 16px;
+    line-height: 40px;
+  }
+  #services .services-list li i {
+    margin-right: 20px;
+  }
+  #services .services__tab {
+    display: block !important;
+    opacity: 1;
+  }
+  #address .section-header {
+    margin-bottom: 30px;
+  }
+  #address .address__list li {
+    line-height: 17px;
+    margin-bottom: 17px;
+  }
+  #address .address__list li i {
+    margin-right: 24px;
+  }
+  #price .price__title {
+    font-size: 20px;
+    line-height: 26px;
+  }
+  .bottom-bg {
+    max-height: 320px;
+    height: 320px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  header nav a {
+    font-size: 14px;
+    margin-right: 23px;
+  }
+  #corners .corners-card__item {
+    width: 45%;
+    min-height: 300px;
+  }
+}
+/*# sourceMappingURL=responsive.css.map */
