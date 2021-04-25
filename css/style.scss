@@ -344,6 +344,11 @@ header {
 #services {
     .nav {
         margin-bottom: 80px;
+        .nav-item {
+            .active {
+                border: 2px solid $main-green !important;
+            }
+        }
         %services-link {
             min-width: 285px;
             padding-top: 12px;
@@ -559,5 +564,28 @@ footer {
             line-height: 24px;
             opacity: .4;
         }
+    }
+}
+
+.go-top-btn {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background: $main-green;
+    color: $white-color;
+    position: fixed;
+    right: 40px;
+    bottom: 20px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    transition: $transition4;
+    outline: none !important;
+    border: none;
+    &:hover {
+        color: $white-color;
+        opacity: .8;
     }
 }
